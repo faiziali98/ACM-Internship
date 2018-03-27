@@ -1,0 +1,12 @@
+public class DynamicArray 
+{
+	public int[] arr;
+
+	public DynamicArray(int size)
+	{
+		arr= new int[size];
+	}
+
+	public void resize();
+	public void add(int a);
+}
